@@ -1,0 +1,10 @@
+anndata
+matplotlib
+numpy
+pandas
+opencv-python
+pycpd
+tangram-sc
+tqdm
+open_clip_torch
+pillow
