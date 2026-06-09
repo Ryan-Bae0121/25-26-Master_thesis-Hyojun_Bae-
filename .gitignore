@@ -1,0 +1,71 @@
+# ---- Data (never commit large/raw data) ----
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.h5ad
+*.hdf5
+*.svs
+*.tif
+*.tiff
+*.ndpi
+*.mrxs
+*.geojson
+*.zip
+*.tar
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+
+# ---- Images / figures (regenerated from code) ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# allow small docs images if needed (uncomment to whitelist a folder)
+# !docs/img/**
+
+# ---- Secrets / credentials ----
+*.pem
+*.key
+.netrc
+.env
+*credentials*
+*secret*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+build/
+dist/
+.eggs/
+
+# ---- Virtual environments ----
+venv/
+venvs/
+.venv/
+env/
+loki/
+*/pyvenv.cfg
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Output / processed artifacts ----
+processed/
+output/
+outputs/
+output_prediction/
+logs/
+models/
+checkpoints/
