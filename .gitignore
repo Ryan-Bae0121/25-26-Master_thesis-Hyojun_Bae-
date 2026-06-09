@@ -69,3 +69,9 @@ output_prediction/
 logs/
 models/
 checkpoints/
+
+# committed-by-accident virtualenvs
+gpulab/
+**/site-packages/
+**/pyvenv.cfg
+bin/activate*
